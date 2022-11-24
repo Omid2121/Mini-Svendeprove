@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobile_App.Views.ProductCreationPage"
+             xmlns:viewmodel="clr-namespace:Mobile_App.ViewModels"
+             x:DataType="viewmodel:ProductViewModel"
+             Title="Product Creation">
+    
+
+    <ScrollView Margin="20">
+
+        <VerticalStackLayout>
+            <Label Text="Add new product" FontAttributes="Bold" FontSize="Title" Margin="0,20" />
+
+            <Label Text="Name" FontAttributes="Bold" FontSize="Body"/>
+            <Frame Padding="5">
+                <Entry Text="{Binding Name}" FontSize="Body"/>
+            </Frame>
+            <Label Text="Barcode" FontAttributes="Bold" FontSize="Body"/>
+            <Frame Padding="5">
+                <Entry Text="{Binding Barcode}" FontSize="Body"/>
+            </Frame>
+            <Label Text="Category" FontAttributes="Bold" FontSize="Body"/>
+            <Frame Padding="5">
+                <Picker ItemsSource="{Binding ProductTypes}"
+                        SelectedItem="{Binding SelectedType}"
+                        FontSize="Body" TitleColor="Black" TextColor="Black"/>
+            </Frame>
+            <Label Text="Price" FontAttributes="Bold" FontSize="Body"/>
+            <Frame Padding="5">
+                <Entry Text="{Binding Price}" FontSize="Body" Keyboard="Numeric"/>
+            </Frame>
+            <Button Text="Create" VerticalOptions="End" Margin="0,20"
+                    Command="{Binding AddProductCommand}"/>
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>

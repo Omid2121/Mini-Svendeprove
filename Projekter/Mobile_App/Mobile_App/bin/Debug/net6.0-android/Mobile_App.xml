@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Mobile_App</name>
+    </assembly>
+    <members>
+        <member name="M:Mobile_App.ViewModels.ProductViewModel.Continue">
+            <summary>
+            This method is called when user presses the ContinueCommand on ProductPage.
+            </summary>
+        </member>
+        <member name="M:Mobile_App.ViewModels.SaleViewModel.Continue">
+            <summary>
+            This method is called when user presses the ContinueCommand on SalePage.
+            </summary>
+        </member>
+    </members>
+</doc>

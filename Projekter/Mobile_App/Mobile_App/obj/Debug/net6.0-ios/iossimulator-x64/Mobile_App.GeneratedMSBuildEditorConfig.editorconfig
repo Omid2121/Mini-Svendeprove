@@ -1,0 +1,82 @@
+is_global = true
+build_property.TargetFramework = net6.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Mobile_App
+build_property.ProjectDir = C:\Users\omid_\OneDrive\Documents\GitHub\Mini-Svendeprove\Projekter\Mobile_App\Mobile_App\
+
+[C:/Users/omid_/OneDrive/Documents/GitHub/Mini-Svendeprove/Projekter/Mobile_App/Mobile_App/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Mobile_App.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/omid_/OneDrive/Documents/GitHub/Mini-Svendeprove/Projekter/Mobile_App/Mobile_App/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Mobile_App.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/omid_/OneDrive/Documents/GitHub/Mini-Svendeprove/Projekter/Mobile_App/Mobile_App/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Mobile_App.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/omid_/OneDrive/Documents/GitHub/Mini-Svendeprove/Projekter/Mobile_App/Mobile_App/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Mobile_App.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/omid_/OneDrive/Documents/GitHub/Mini-Svendeprove/Projekter/Mobile_App/Mobile_App/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Mobile_App.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/omid_/OneDrive/Documents/GitHub/Mini-Svendeprove/Projekter/Mobile_App/Mobile_App/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Mobile_App.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
+
+[C:/Users/omid_/OneDrive/Documents/GitHub/Mini-Svendeprove/Projekter/Mobile_App/Mobile_App/Views/OverviewPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Mobile_App.Views.OverviewPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\OverviewPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\OverviewPage.xaml
+
+[C:/Users/omid_/OneDrive/Documents/GitHub/Mini-Svendeprove/Projekter/Mobile_App/Mobile_App/Views/ProductCreationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Mobile_App.Views.ProductCreationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ProductCreationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ProductCreationPage.xaml
+
+[C:/Users/omid_/OneDrive/Documents/GitHub/Mini-Svendeprove/Projekter/Mobile_App/Mobile_App/Views/ProductPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Mobile_App.Views.ProductPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ProductPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ProductPage.xaml
+
+[C:/Users/omid_/OneDrive/Documents/GitHub/Mini-Svendeprove/Projekter/Mobile_App/Mobile_App/Views/SalePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Mobile_App.Views.SalePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SalePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SalePage.xaml
+
+[C:/Users/omid_/OneDrive/Documents/GitHub/Mini-Svendeprove/Projekter/Mobile_App/Mobile_App/Views/ScannerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Mobile_App.Views.ScannerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ScannerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ScannerPage.xaml
+
+[C:/Users/omid_/OneDrive/Documents/GitHub/Mini-Svendeprove/Projekter/Mobile_App/Mobile_App/Views/SignUpPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Mobile_App.Views.SignUpPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SignUpPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SignUpPage.xaml

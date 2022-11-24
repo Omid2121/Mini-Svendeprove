@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Mobile_App.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Mobile_App"
+    xmlns:views="clr-namespace:Mobile_App.Views"    
+    Shell.FlyoutBehavior="Disabled">
+
+    <ShellContent
+        ContentTemplate="{DataTemplate views:LoginPage}" Route="LoginPage" />
+
+
+    <TabBar>
+        <Tab Title="Overview" Icon="overview_icon.png" Route="OverviewPage">
+            <ShellContent ContentTemplate="{DataTemplate views:OverviewPage}" />
+        </Tab>
+        <Tab Title="Cart" Icon="cart_icon.png" >
+            <ShellContent Title="Products" Route="ProductPage"
+                         ContentTemplate="{DataTemplate views:ProductPage}" />
+            <ShellContent Title="Sales" Route="SalePage"
+                         ContentTemplate="{DataTemplate views:SalePage}" />
+        </Tab>
+        <Tab Title="Scanner" Icon="scanner_icon.png" Route="ScannerPage">
+            <ShellContent ContentTemplate="{DataTemplate views:ScannerPage}" />
+        </Tab>
+    </TabBar>
+
+    <!--<Shell.FlyoutFooter>
+        <StackLayout Padding="20">
+            <Button Text="Sign Out" Command="{Binding SignOutCommand}" BackgroundColor="Red"/>
+        </StackLayout>
+    </Shell.FlyoutFooter>-->
+
+</Shell>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobile_App.Views.ProductPage"
+             xmlns:viewmodel="clr-namespace:Mobile_App.ViewModels"
+             x:DataType="viewmodel:ProductViewModel">
+    
+    <RefreshView Command="{Binding GetProductsCommand}"
+                     IsRefreshing="{Binding IsBusy}"
+                     RefreshColor="#9003fc">
+
+        <VerticalStackLayout>
+            <Button Text="Create" TextColor="White" 
+                        BackgroundColor="LimeGreen"
+                        Grid.Column="1" HorizontalOptions="End" Margin="10"
+                        HeightRequest="50" FontSize="15"
+                        Command="{Binding ContinueCommand}"/>
+
+            <Label Text="LIBRARY" Padding="20,5,0,5"/>
+            <CollectionView ItemsSource="{Binding Products}">
+                <CollectionView.EmptyView>
+                    <Label Text="No products found" HorizontalOptions="Center" VerticalOptions="Center" />
+                </CollectionView.EmptyView>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <SwipeView>
+                            <SwipeView.RightItems>
+                                <SwipeItems>
+                                    <SwipeItem BackgroundColor="Red"
+                                                IconImageSource="delete.png"
+                                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ProductViewModel}}, Path=DeleteProductCommand}"/>
+                                </SwipeItems>
+                            </SwipeView.RightItems>
+                            <Frame CornerRadius="5" Margin="10">
+                                <Grid ColumnDefinitions="2*,2*" RowDefinitions="*,*" Padding="10">
+                                    <Label Text="{Binding Name}" Grid.Column="0" Grid.Row="0" FontAttributes="Bold" FontSize="Body" TextColor="Black"/>
+                                    <Label Text="{Binding SelectedType}" Grid.Column="1" Grid.Row="0" TextColor="Black" HorizontalOptions="EndAndExpand"/>
+                                    <Label Text="{Binding Barcode}" Grid.Column="0" Grid.Row="1" FontAttributes="Bold" FontSize="Body" TextColor="Black"/>
+                                    <Label Text="{Binding Price}" Grid.Column="1" Grid.Row="1" FontAttributes="Bold" TextColor="Black" HorizontalOptions="EndAndExpand"/>
+                                </Grid>
+                            </Frame>
+                        </SwipeView>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+            
+    </RefreshView>
+</ContentPage>

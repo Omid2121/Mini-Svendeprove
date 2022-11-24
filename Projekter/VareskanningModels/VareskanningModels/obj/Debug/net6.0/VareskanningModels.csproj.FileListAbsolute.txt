@@ -1,0 +1,14 @@
+C:\Users\omid_\OneDrive\Documents\GitHub\Mini-Svendeprove\Projekter\VareskanningModels\VareskanningModels\bin\Debug\net6.0\VareskanningModels.deps.json
+C:\Users\omid_\OneDrive\Documents\GitHub\Mini-Svendeprove\Projekter\VareskanningModels\VareskanningModels\bin\Debug\net6.0\VareskanningModels.runtimeconfig.json
+C:\Users\omid_\OneDrive\Documents\GitHub\Mini-Svendeprove\Projekter\VareskanningModels\VareskanningModels\bin\Debug\net6.0\VareskanningModels.dll
+C:\Users\omid_\OneDrive\Documents\GitHub\Mini-Svendeprove\Projekter\VareskanningModels\VareskanningModels\bin\Debug\net6.0\VareskanningModels.pdb
+C:\Users\omid_\OneDrive\Documents\GitHub\Mini-Svendeprove\Projekter\VareskanningModels\VareskanningModels\obj\Debug\net6.0\VareskanningModels.csproj.AssemblyReference.cache
+C:\Users\omid_\OneDrive\Documents\GitHub\Mini-Svendeprove\Projekter\VareskanningModels\VareskanningModels\obj\Debug\net6.0\VareskanningModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omid_\OneDrive\Documents\GitHub\Mini-Svendeprove\Projekter\VareskanningModels\VareskanningModels\obj\Debug\net6.0\VareskanningModels.AssemblyInfoInputs.cache
+C:\Users\omid_\OneDrive\Documents\GitHub\Mini-Svendeprove\Projekter\VareskanningModels\VareskanningModels\obj\Debug\net6.0\VareskanningModels.AssemblyInfo.cs
+C:\Users\omid_\OneDrive\Documents\GitHub\Mini-Svendeprove\Projekter\VareskanningModels\VareskanningModels\obj\Debug\net6.0\VareskanningModels.csproj.CoreCompileInputs.cache
+C:\Users\omid_\OneDrive\Documents\GitHub\Mini-Svendeprove\Projekter\VareskanningModels\VareskanningModels\obj\Debug\net6.0\VareskanningModels.dll
+C:\Users\omid_\OneDrive\Documents\GitHub\Mini-Svendeprove\Projekter\VareskanningModels\VareskanningModels\obj\Debug\net6.0\refint\VareskanningModels.dll
+C:\Users\omid_\OneDrive\Documents\GitHub\Mini-Svendeprove\Projekter\VareskanningModels\VareskanningModels\obj\Debug\net6.0\VareskanningModels.pdb
+C:\Users\omid_\OneDrive\Documents\GitHub\Mini-Svendeprove\Projekter\VareskanningModels\VareskanningModels\obj\Debug\net6.0\VareskanningModels.genruntimeconfig.cache
+C:\Users\omid_\OneDrive\Documents\GitHub\Mini-Svendeprove\Projekter\VareskanningModels\VareskanningModels\obj\Debug\net6.0\ref\VareskanningModels.dll

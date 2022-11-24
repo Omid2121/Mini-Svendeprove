@@ -1,0 +1,1 @@
+<network-security-config><domain-config cleartextTrafficPermitted="true"><domain includeSubdomains="true">10.0.2.2</domain><domain includeSubdomains="true">microsoft.com</domain><!--Api address--><domain includeSubdomains="true">10.161.57.152</domain></domain-config></network-security-config>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:zxing="clr-namespace:ZXing.Net.Maui.Controls;assembly=ZXing.Net.MAUI"
+             x:Class="Mobile_App.Views.ScannerPage"
+             Title="Scanner">
+    <VerticalStackLayout>
+        <Label Text="Barcode scanner" FontSize="Title" FontAttributes="Bold" TextColor="#9003fc"/>
+
+        <zxing:CameraBarcodeReaderView x:Name="barcodeReader" IsDetecting="True" WidthRequest="200" HeightRequest="200"
+                                       BarcodesDetected="CameraBarcodeReaderView_BarcodesDetected"/>
+
+        <Label x:Name="barcodeResult"/>
+    </VerticalStackLayout>
+</ContentPage>

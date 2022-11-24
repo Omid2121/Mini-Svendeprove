@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobile_App.Views.LoginPage"
+             Title="LoginPage"
+             Shell.NavBarIsVisible="False"
+             xmlns:viewmodel="clr-namespace:Mobile_App.ViewModels"
+             x:DataType="viewmodel:LoginViewModel">
+
+    <VerticalStackLayout VerticalOptions="Center" Margin="20,0">
+
+        <Label Text="Log In"
+               FontAttributes="Italic,Bold"
+               FontSize="40" 
+               Padding="0,20"
+               TextColor="#9003fc"
+               HorizontalOptions="Start"/>
+
+        <Image Source="scanner_logo"
+            HeightRequest="100"
+            HorizontalOptions="Center"
+            VerticalOptions="Fill" />
+
+        <Entry Placeholder="Username"  
+            FontSize="Large"
+            Margin="10"
+            BackgroundColor="Transparent"
+            TextColor="Black" HorizontalOptions="FillAndExpand" VerticalOptions="Center"
+            Text="{Binding Username}"/>
+
+        <Entry Placeholder="Password"
+            TextColor="Black"
+            FontSize="Large"
+            Margin="10"
+            BackgroundColor="Transparent"
+            HorizontalOptions="FillAndExpand" VerticalOptions="Center"
+            FontFamily="Rubik-Regular"
+            IsPassword="True"
+            Text="{Binding Password}"/>
+
+        <Button Text="LOG IN"
+            TextColor="White"
+            FontSize="Medium"
+            FontAttributes="Bold"
+            CornerRadius="10"
+            MinimumHeightRequest="50"
+            Command="{Binding LoginCommand}">
+            <Button.Background>
+                <LinearGradientBrush StartPoint="0,0"
+                        EndPoint="1,0">
+                    <GradientStop Color="#9003fc"
+                        Offset="0.1" />
+                    <GradientStop Color="#250142"
+                        Offset="1.0" />
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+
+        <Label Text="You don't have a account?" 
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               FontSize="Body"/>
+
+        <Button Text="Sign Up"
+            BackgroundColor="Transparent"
+            TextColor="#9003fc"
+            FontSize="Body"
+            FontAttributes="Bold"
+                Command="{Binding ContinueCommand}"/>
+
+    </VerticalStackLayout>
+</ContentPage>
